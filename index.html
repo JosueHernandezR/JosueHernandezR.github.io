@@ -9,36 +9,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixer-top navigation-menu navbar tz-header-bg no-margin alt-font shrink-transparent-header-dark header-border-light dark-header shrink-nav">
-        <a class="navbar-brand" href="#" >
-            <img src="./img/logo-white.png" alt="" class="w-75">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                <a class="navbar-brand" href="#">
+                    <img class="w-50" src="img/logo-white.png" alt="">
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
                 </div>
-            </li>
-            </ul>
-        </div>
     </nav>
     <div class="container-fluid">
         <div class="row">
@@ -98,7 +91,60 @@
             </div>
         </div>
     </div>
+    <div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-5">
+					<h2>We believe in the <br><b>power of great Ideas!</b></h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, harum, quam. Ducimus doloremque nulla iste voluptates harum maxime deserunt dolore eaque, repellendus ipsum beatae provident assumenda eveniet voluptas, excepturi rerum!</p>
+					<div class="btn btn-outline-secondary">continue reading</div>
+				</div>
+				<div class="col-12 col-lg-7">
+					<div class="row">
+						<div class="col-12 col-lg-6">
+							<img class="w-100" src="img/pic-1.jpg" alt="">
+						</div>
+						<div class="col-12 col-lg-6">
+							<img class="w-100" src="img/pic-2.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
 
+    <div class="container-fluid">
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<img class="w-100"src="img/pic-3.jpg" alt="">
+				</div>
+				<div class="col-12 col-lg-6">
+					<h2>our services</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, maxime. Architecto ullam a asperiores provident alias eius sit inventore.</p>
+					<div class="services-wrapper">
+						<div class="services-item">
+							<i class="fas fa-tv"></i>
+							<h3>Graphic Design</h3>
+							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quaerat, animi? Delectus beatae distinctio ipsa harum ea enim voluptatem eaque!</p>
+						</div>
+						<div class="services-item">
+							<i class="fas fa-pencil-ruler"></i>
+							<h3>Web Design</h3>
+							<p>		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eos, sit neque ipsam unde aliquam iste voluptatum et temporibus nam assumenda suscipit nobis veniam facilis, ipsum obcaecati id tempore itaque.</p>
+						</div>
+						<div class="services-item">
+							<i class="fas fa-globe"></i>
+							<h3>Branding</h3>
+							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias earum magnam minima laboriosam aliquam, ad nihil? Nemo, maiores corporis aperiam!</p>
+						</div>
+						<div class="services-item">
+							<i class="fas fa-map-marked-alt"></i>
+							<h3>Photografy</h3>
+							<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure earum natus ab officiis delectus sequi est, similique eaque sit provident.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        
     <div class="container-fluid">
         <div class="row">
                 <div class="col-4  ">
@@ -157,33 +203,33 @@
         </div>
     </section>
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-3">
-                <div class="counter-item">
-                    <span class="topic-count">523545</span>
-                    <p class=""></p>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3">
-                <div class="counter-item">
-                    <span class="topic-count">523545</span>
-                    <p class=""></p>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3">
-                <div class="counter-item">
-                    <span class="topic-count">523545</span>
-                    <p class=""></p>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3">
-                <div class="counter-item">
-                    <span class="topic-count">523545</span>
-                    <p class=""></p>
-                </div>
-            </div>
-        </div>
-    </div>
+			<div class="row">
+				<div class="col-12 col-lg-3">
+					<div class="counter-item">
+						<span class="topic-count">15548</span>
+						<p class="topic-text">Projects Completed</p>
+					</div>
+				</div>
+				<div class="col-12 col-lg-3">
+					<div class="counter-item">
+						<span class="topic-count">655979</span>
+						<p class="topic-text">Happy Clients</p>
+					</div>
+				</div>
+				<div class="col-12 col-lg-3">
+					<div class="counter-item">
+						<span class="topic-count">549846</span>
+						<p class="topic-text">Answered tickets</p>
+					</div>
+				</div>
+				<div class="col-12 col-lg-3">
+					<div class="counter-item">
+						<span class="topic-count">568452</span>
+						<p class="topic-text">Development hours</p>
+					</div>
+				</div>
+			</div>
+		</div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>        
